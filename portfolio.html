@@ -19,6 +19,7 @@
     />
     <!--normalise end-->
     <!--custom styles satrt-->
+    <link rel="stylesheet" href="./CSS/main.min.css" />
     <link rel="stylesheet" href="./CSS/styles.css" />
     <!--custom styles end-->
     <title>Portfolio</title>
@@ -60,7 +61,7 @@
       <!--Портфолио-->
       <section class="section">
         <div class="pf-container">
-          <h1 class="pf-title">Портфолио</h1>
+          <h1 class="pf-title" hidden>Портфолио</h1>
           <!--фильтры-->
           <ul class="list filter-flex">
             <li class="pf-item">
@@ -283,6 +284,7 @@
         </div>
       </section>
     </main>
+    <!--Footer-->
     <footer class="footer">
       <div class="container">
         <div class="footer-contacts">
@@ -299,10 +301,10 @@
         </div>
         <div class="footer-social-link">
           <strong class="footer-title">присоединяйтесь</strong>
-          <ul class="list footer-link-list">
-            <li class="item footer-link-item">
+          <ul class="social-networks social-networks--mt list">
+            <li class="social-networks__item item">
               <a
-                class="social-link link"
+                class="social-networks__link social-networks__link--mode-dark link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -313,9 +315,9 @@
                 </svg>
               </a>
             </li>
-            <li class="item footer-link-item">
+            <li class="social-networks__item item">
               <a
-                class="social-link link"
+                class="social-networks__link social-networks__link--mode-dark link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -326,9 +328,9 @@
                 </svg>
               </a>
             </li>
-            <li class="item footer-link-item">
+            <li class="social-networks__item item">
               <a
-                class="social-link link"
+                class="social-networks__link social-networks__link--mode-dark link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -339,9 +341,9 @@
                 </svg>
               </a>
             </li>
-            <li class="item footer-link-item">
+            <li class="social-networks__item item">
               <a
-                class="social-link link"
+                class="social-networks__link social-networks__link--mode-dark link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
@@ -355,7 +357,7 @@
           </ul>
         </div>
         <form class="footer-form" name="subscribe-form">
-          <strong class="subscribe-form-header">Подпишитесь на рассылку</strong>
+          <strong class="footer-subscribe-form">Подпишитесь на рассылку</strong>
           <label>
             <input class="footer-form-email" type="email" name="user-email" placeholder="E-mail" />
           </label>
